@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        table,tr,td{
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- <p>element selector</p>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("button").click(function() {
+                $("h1").hide();
+            });
+        });
+    </script>
+    <h1>headinggg</h1>
+    <button>click</button>  -->
+
+
+    <!-- <p>id selector</p>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $("#submitButton").click(function() {
+                $("#heading").hide();
+            });
+        });
+    </script>
+    <h1 id="heading">headinggg</h1>
+    <input type="submit" id="submitButton" value="click"> -->
+
+    <!-- <p>class selector</p>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".submitButton").click(function() {
+                $(".heading").hide();
+            });
+        });
+    </script>
+    <h1 class="heading">headinggg</h1>
+    <input type="submit" class="submitButton" value="click"> -->
+
+
+
+    <!-- <p>multiple class selectors</p>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $(".btn-submit").click(function() {
+                $(".text,.heading").hide();
+            });
+        });
+    </script>
+    <h1 class="text">headinggg-one</h1>
+    <h1 class="heading">headinggg-two</h1>
+    <input type="submit" class="btn-submit" value="click"> -->
+
+    
+    <!-- <p>* selector</p>
+
+    <script type="text/javascript">
+                $(document).ready(function () {
+            $("*").css("color",
+                "lightgreen");
+        });
+
+    </script>
+    <p>star</p>
+    <h1>star</h1> -->
+
+
+    <!-- <h3>first Selector </h3>
+
+    <script>
+        $(document).ready(function () {
+            $("p:first").css(
+                "background-color", "green");
+        });
+    </script>
+    <p>hiiiiii</p>
+    <p>helooooo</p> -->
+
+    <h3>even selector</h3>
+
+    <script>
+        $(document).ready(function () {
+            $("tr:even").css("background-color",
+                "green");
+        }); 
+</script>
+<table>
+    <tr>
+        <td>hiiii</td>
+        <td>helooo</td>
+    </tr>
+    <tr>
+        <td>hiiii</td>
+        <td>helooo</td>
+    </tr>
+    <tr>
+        <td>hiiii</td>
+        <td>helooo</td>
+    </tr>
+    <tr>
+        <td>hiiii</td>
+        <td>helooo</td>
+    </tr>
+</table>
+
+</body>
+</html>

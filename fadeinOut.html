@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.js"
+    integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+    crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+  $(".btn1").click(function(){
+    $("p").fadeOut();
+  });
+  $(".btn2").click(function(){
+    $("p").fadeIn();
+  });
+});
+</script>
+</head>
+<body>
+
+<p>This is a paragraph.</p>
+
+<button class="btn1">Fade out</button>
+<button class="btn2">Fade in</button>
+
+</body>
+</html>

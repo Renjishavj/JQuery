@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Example</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        #e5 {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Change Text</button>
+    <button id="btn2">Change HTML</button>
+    <button id="btn3">Change Value</button>
+    <button id="btn4">Align Center</button>
+    <button id="btn5">Change Border Radius</button>
+
+    <p id="e1">Element 1</p>
+    <p id="e2">Element 2</p>
+    <input type="text" id="e3" value="Default Value">
+    <div id="e4">Element 4</div>
+    <div id="e5">Element 5</div>
+
+    <script>
+        $("#btn").click(function() { 
+            $("#e1").text("Test 1"); 
+        }); 
+
+        $("#btn2").click(function() { 
+            $("#e2").html("<b>Test 3</b>"); 
+        }); 
+
+        $("#btn3").click(function() { 
+            $("#e3").val("jQuery"); 
+        }); 
+
+        $("#btn4").click(function() { 
+            $("#e4").attr("align", "center"); 
+        }); 
+
+        $("#btn5").click(function() { 
+            $("#e5").css("border-radius", "50px"); 
+        }); 
+    </script>
+</body>
+</html>
